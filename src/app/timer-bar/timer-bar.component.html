@@ -1,0 +1,19 @@
+<div class="container"
+  [style.top.px]="(scheduleNote.startHrs+scheduleNote.startMins/60-8)*96+20"
+  [style.borderColor]="scheduleNote.color"
+  (click)="Modify()"
+>
+  <div class="bar" 
+  [style.height.px]="scheduleNote.duration" 
+  [style.backgroundColor]="scheduleNote.color"
+  [style.borderColor]="scheduleNote.color"
+  >
+  </div>
+
+<div class="note" 
+  [style.height.px]="scheduleNote.duration" 
+  [style.borderColor]="scheduleNote.color"
+>
+  {{scheduleNote.note}}
+</div>
+</div>

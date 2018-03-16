@@ -1,0 +1,16 @@
+.finishTask{
+    color: grey;
+    text-decoration:line-through;
+    width:350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div{
+    border-bottom: 1px solid grey;
+    color: cornflowerblue;
+    height: 20px;
+   
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}

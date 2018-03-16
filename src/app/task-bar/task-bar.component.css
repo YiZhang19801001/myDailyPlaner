@@ -1,0 +1,19 @@
+div{
+    border-bottom: 1px solid darkblue;
+    color: black;
+    height: 20px;
+    
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+
+.toDoTask{
+    color:black;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+

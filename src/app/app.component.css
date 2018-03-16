@@ -1,0 +1,122 @@
+.right{
+    float: left;
+    width: 400px;
+    height: 900px;
+    
+    position: relative;
+    
+}
+.left{
+    float: left;
+    width: 200px;
+    height: 900px;
+    margin-left: 28px;
+    
+    position: relative;
+}
+
+.container{
+    background-color: #E9E3D6;
+    float: left;
+    border: 1px solid orange;
+    border-radius: 10px;
+    
+    margin:auto;
+}
+
+.inputAddNew{
+    width: 300px;
+    margin: 10px 15px 20px 20px;
+}
+
+.btnAddTask{
+    width: 45px;
+    font-weight: bold;
+    background-color:#BF2C24;
+    color:white;
+    border:none;
+    height: 22px;
+}
+
+.listTaskDone{
+    position: absolute;
+    bottom: 5px;
+}
+
+.btnShowMore{
+    margin: auto;
+    background-color: #BF2C24;
+    width: 200px;
+    text-align:center;
+    color:white;
+    font-size: 14px;
+}
+
+.btnChangeColor{
+    width: 40px;
+    height: 40px;
+    border: 1px solid orange;
+    border-radius: 50%;
+
+}
+
+.btnChangeColor:focus{
+    outline: none;
+}
+
+.timeBar{
+    position: absolute;
+    height: 900px;
+    width: 32px;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    left:34px;
+    z-index: 10;
+
+}
+
+.timeText{
+    position: absolute;
+    font-family: 'Rammetto One', cursive;
+    color: orange;
+}
+
+.controlPannel{
+    float: left;
+    margin: 50px 0px 0px 80px;
+    width: 150px;
+    height: 400px;
+    padding:10px 30px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: #F6F1E7;
+    
+}
+
+.addSchedule{
+    margin-top:10px;
+}
+
+.addSchedule input{
+    width: 150px;
+    margin: 8px 0px;
+}
+
+.addSchedule button{
+    width: 155px;
+    font-weight: bold;
+    background-color:#BF2C24;
+    color:white;
+    border:none;
+    height: 22px;
+    margin-top: 8px; 
+}
+
+
+.note{
+    width: 150px;
+    height: 100px;
+    resize: none;
+    text-align: left;
+
+}

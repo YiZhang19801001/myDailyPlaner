@@ -1,0 +1,23 @@
+.bar{
+    float: left;
+    width: 30px;
+}
+
+.note{
+    padding-left: 8px;
+    float: left;
+    width:150px;
+    font-family: 'Indie Flower', cursive; 
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+.container{
+    position: absolute;
+    margin-top:2px;
+    border:2px solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
